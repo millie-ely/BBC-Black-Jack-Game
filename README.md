@@ -1,18 +1,28 @@
-## Getting Started
+## Welcome to my BlackJack Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to my attempt of the blackjack game in relation to the BBC software engineering graduate scheme assessment interview.
 
-## Folder Structure
+## Information of the set up
 
-The workspace contains two folders by default, where:
+This Java repository contains four folders with the two main usages being :
 
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+The src folder contains main folder which holds the games executable sources by using the fundamentals along with the models created for the user the App.java can start the game for the user/users. Also within this src is a test folder to hold a test case for important functionalities used within the game to make sure they produce expected outcomes that would make sense within the game scenario.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Instructions
 
-## Dependency Management
+- Single or multi player game -> players are asked on initalisation 
+- The dealers first card will be made present to the players
+- There decisions to HIT or STAND will then be asked for
+- Whilst in play any ACE's will be asked for a value decision once stand has been chosen and no more cards are to be added to the hand
+- The results between the players and the dealer will then be announced to the user/users.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## How to run
+
+In order to run the game in terminal: 
+- Clone the repository 
+- Navigate to the src folder 'cd BBC/BBC-Blackjack-Game/src'
+- Create compiled class files from the repo using 'javac App.java'
+- Run the app to start the game using 'java App'
